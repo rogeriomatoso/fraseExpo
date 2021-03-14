@@ -14,11 +14,13 @@ export default class FraseLivro extends Component{
 
 const styles = StyleSheet.create({
     texto:{
-        fontSize: 24,
+        fontSize: 20,
         marginTop: 10, 
-        marginBottom:25,
-        //fontWeight: 'bold' , 
-        //fontFamily: 'arial black'        
+        marginBottom:25,      
+        textAlign: "center",        
+        maxWidth: 300,
+        color: "#008000"
+               
     }
 
 
